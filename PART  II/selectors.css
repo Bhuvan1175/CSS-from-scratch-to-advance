@@ -1,0 +1,76 @@
+/*  Selectors :- Individuals group of elements ko select karna
+
+    id > class > element
+*/
+
+/* 1. Universal Selectors :- To select everything in a documents. */
+*{  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 2. Element Selector :-  select all element of the same type */
+
+h3{
+    color: purple;
+}
+
+h1{
+    color: #b92b27;
+}
+/* 3. ID SELECTOR : Select an element based on the value of the element id attribute  */
+
+#login{
+    background-color: #ffffff;
+}
+#signup{
+    background-color: #b92b27;
+    color: #ffffff;
+}
+/* 4. CLASS SELECTOR : Select an element based on the value of the element class attribute. */
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+/* 5. Descendant Selector :- select all paragraph inside divs */
+
+p a{
+    color:purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color: pink;
+}
+
+/* 6. Adjacent sibling Combinator : that comes immediately after any paragraph */
+
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote+button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/*  7. Child Combinator :- selects al the elements whic are direct children. */
+
+div > input{
+    background-color: darksalmon;
+}
+
+/* 8. Attribute Selector :- select elements based on the presence or value of a given attribute */
+
+input[type="text"]{
+    color: green;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}

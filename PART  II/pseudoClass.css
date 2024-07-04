@@ -1,0 +1,56 @@
+/* Pseudo Class :-
+        A Keyword added to a selector that specifies a special state of the selected elements.
+        1):hover 
+        2):active
+        3):checked
+        4):nth-of-type()
+
+*/
+
+button:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+h3:hover{
+    text-decoration:overline;
+}
+
+/* :active  :- button jab click hota hai use active bolte hai*/
+
+button:active{
+    background-color: chartreuse;
+    color: #111;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+/* :checked : radio buttuons ke liye soe css */
+
+input[type="radio"]:checked+label{
+    color: red !important;
+    font-weight: bold;
+}
+
+
+/* nth-of-type :- to help to select nth element*/
+
+p:nth-of-type(2n){
+    background-color: rgb(200, 120, 0);
+}
+
+
+/* ::first-letter :-  */
+
+h1::first-letter{
+    color: rgb(0, 0, 0);
+}
+
+/* :: selection */
+
+
+
+/* !important : kabhi bhi chnage ngi kar paoge */
