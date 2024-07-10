@@ -1,0 +1,12 @@
+/* Inline :- Takes up only necessary width, dont start from new line 
+    Block :- Takes up full width available.
+
+    Display :- It set whether an elemnt is treated as a block or inline 
+*/
+
+h3{
+    display: inline;
+}
+span{
+    display: block;
+}

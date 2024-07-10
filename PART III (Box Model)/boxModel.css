@@ -1,0 +1,56 @@
+/* Height :- By dfault it sets the content height of the element. */
+
+div{
+    height: 200px;
+    width: 300px;
+    border-width: 2px;
+    border-style:dotted;
+    border-color: red;
+    /* bordern shorthand */
+    border: 5px solid green;
+    text-align: center;
+}
+
+/* Border Sides */
+div{
+    border-left-color: teal;
+    border-right-color: blue;
+    border-top-color: chocolate;
+}
+
+/* Border Radius :- Used to round the corners of an elements outer border edge*/
+div{
+    border-radius:50%;
+}
+
+
+/* Padding :- */
+div{
+    padding-top:50px;
+    padding-left: 60px;
+    padding-right: 50px; 
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+/* Padding Shorthand :- 
+#1) for all 4 sides :- padding:30px 
+#2) top & bottom | left & right :- padding : 1px 2px;
+#3) top | right & left | bottom :- padding : 1px 2px
+#4) top | right | bottom | left :- padding : 1px 2px
+*/
+
+/* Margin :- T set spacing on the outside of border. */
+button{
+    margin-left: 13%;
+    margin-top: 20px;
+}
+
+div{
+    margin-bottom: 20px;
+}
