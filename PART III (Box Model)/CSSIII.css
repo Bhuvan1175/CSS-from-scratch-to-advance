@@ -1,0 +1,17 @@
+/* Question 01 */
+div{
+    height: 100px;
+    width: 300px;
+    background-color: grey;
+    border:5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+}
+
+/* Question 02 */
+li{
+    display: inline;
+    margin: 30px;
+}
