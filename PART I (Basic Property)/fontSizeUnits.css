@@ -1,0 +1,23 @@
+/* FONT SIZE USNITS IN  CSS :- 
+
+    1. Absolute : fixed things called Absoolute .
+        1.px : 1 inch -- 96px
+        2.pt : 1 inch -- 72pt
+        3.pc : 1 inch --12pc
+
+    2. Relative
+    1.em : 1em = 16px
+    2.rem : 1rem = 16px
+    3.vw : 1vw = 1% of the viewport width   
+    4.vh : 1vh = 1% of the viewport height
+    5.% : 1% = 1% of the parent element
+    6.ch : 1ch = 1 character width of the font
+    7.ex : 1ex = 1x height of the font
+
+    1. pixels : not suitable for responsive websites
+
+*/
+
+h1{
+    font-size: 50px;
+}

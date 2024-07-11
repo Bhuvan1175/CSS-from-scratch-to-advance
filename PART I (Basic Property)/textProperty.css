@@ -1,0 +1,23 @@
+/* TEXT PROPERTY */
+
+/* 1. text-align --> text ko allign dete hai kaha place hona 
+
+        text-allign : left/ start
+        text-allign : right/ end
+        text-allign : center
+        text-allign : justify
+
+*/
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+
+/* 2. text-decoration --> text ko underline, overline, line-through, none, blink
+/* 3. tex-weight --> text ko bold  vagre karna */
+/* 4. line-height --> do line ke bich main hieght */
+/* 5. letter-spaccing --> ye letter ke bich main spacing ke liye used hota hai */
+/* 6. font-size --> font ka size kitna hona */

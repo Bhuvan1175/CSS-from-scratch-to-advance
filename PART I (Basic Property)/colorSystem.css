@@ -1,0 +1,49 @@
+/* 1. NAMED COLOR :- We Can give color name directly thereare 140 color name gives as named color. */
+
+h1{
+    color: blue;
+}
+
+/* 2. RGB COLOR :- range of RGB is 0-255
+
+    red + blue - pink
+    red + green - yellow
+    blue + green - cyan
+    red + blue + green - white
+
+*/
+
+h2{
+    color: rgb(255,0,190);
+}
+
+h3{
+    color: rgb(255, 150,0);
+}
+
+h4{
+    color: rgb(0, 255, 90);
+}
+
+/* h5{
+    color: rgb(180,43,230);
+} */
+
+
+/* 3. HEXADECIMAL COLOR CODE :- 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+    FORMATTING -> #ffffff -> 
+                               # first two ff is red 
+                               # second pair ff is green 
+                               # third pair of ff is blue
+
+
+*/
+
+h5{
+    color: #ff00ff;
+    color: #ff0000;
+    color: #00ff00;
+    color: #0000ff;
+    color: #00ff9f;
+}
