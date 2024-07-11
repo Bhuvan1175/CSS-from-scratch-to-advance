@@ -1,0 +1,19 @@
+/*  Transitions : It enable you to define the transition between two states of an element. */
+
+/* div:hover{ */
+    /* background-color: red;
+    border-radius: 50%; */
+    /* margin-top: 400px;
+    background-color: aqua; */
+/* } */
+
+    /* width: 100px;
+    margin-top: 100px;
+    margin: 0 auto;
+    transition:margin-top 2s ease 0.2; */
+
+
+/* Transition Shorthand 
+    property name| duration | timing-function | delay 
+
+*/
