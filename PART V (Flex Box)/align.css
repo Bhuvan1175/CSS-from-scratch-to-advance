@@ -1,0 +1,9 @@
+/* Align Items :- Distributes our items along the cross axis.
+ Align Content :- its work similary like justify content but differnce is content item along flexbox's cross axis.
+*/
+
+#container{
+    align-content: center;
+}
+
+/* Align Self :- Align an item along the cross axis. */

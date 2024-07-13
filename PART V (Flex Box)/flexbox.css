@@ -1,0 +1,28 @@
+/* What is Flexbox ?
+--> it is one dimensional layout method for arranging items in rows or coloumn.
+it is used to make website responsive.
+*/
+
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction:row;
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 50px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+
+

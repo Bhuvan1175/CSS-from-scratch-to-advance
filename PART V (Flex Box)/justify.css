@@ -1,0 +1,11 @@
+/* Justify Content 
+
+   :- Tell how the browser fidtrutes space between  and around content items along the main axis.
+*/
+
+/* #container{ */
+    /* justify-content: space-between; gives the remaining space afte last block to in between the elements. */
+    /* justify-content: space-around; gives the remaining space afte last block to in between and gives first and last sapace in half of between space. */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+/* } */
