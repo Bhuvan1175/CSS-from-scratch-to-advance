@@ -1,0 +1,43 @@
+#my{
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+}
+@keyframes fontAnimation{
+    from{font-size: 10px;}
+    to{font-size: 50px;}
+}
+@keyframes divColorBlink{
+    from{background-color: aquamarine;}
+    to{background-color: rgb(247, 11, 11);}
+}
+div{
+    animation-name: fontAnimation;
+    animation-name: ani;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+/* Animation in percentage */
+@keyframes ani{
+    0%{background-color: aquamarine;}
+    25%{background-color: rgb(53, 2, 194);}
+    50%{background-color: rgb(247, 11, 11);}
+    75%{background-color: rgb(149, 32, 199);}
+    100%{background-color: chartreuse;}
+}
+
+@media(max-width:500px){
+    body{
+        background-color: black;
+    }
+}
+
+/* media queries on orientation  */
+@media(orientation:landscape){
+    body{
+        background-color: yellow;
+    }
+}
