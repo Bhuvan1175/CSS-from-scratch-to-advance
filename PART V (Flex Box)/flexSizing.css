@@ -1,0 +1,27 @@
+/* Flex Sizing :- It sets the initial main size of a flex item. */
+
+#red{
+    /* flex-basis: 100px; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 3; */
+    flex-grow: 2;
+}
+#yel{
+    flex-grow: 2;
+}
+
+
+/* Flex sizing shorthand 
+
+
+Flex grow | flex-shrink | flex-basis
+
+flex-grow | flex-basis
+
+flex-grow(unitless)
+
+flex-basis
+
+
+*/
+
