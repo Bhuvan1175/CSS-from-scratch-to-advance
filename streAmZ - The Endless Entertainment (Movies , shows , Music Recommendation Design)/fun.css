@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(15, 6, 23);
+  color: white;
+}
+
+#A-color {
+  color: #ffd700;
+  font-family: "Bodoni Moda SC", serif;
+}
+#Z-color {
+  color: #ff4500;
+  font-family: "Bodoni Moda SC", serif;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.logo a {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  font-size: 35px;
+  font-weight: 700;
+}
+.search-container {
+  position: relative;
+  max-width: 550px;
+  width: 100%;
+}
+#search-bar {
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  border: 1px solid rgb(15, 6, 23);
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+  z-index: -1;
+}
+#search-bar:hover {
+  border: 1px solid #ccc;
+  transition: all 0.8s linear;
+}
+.search-container i {
+  position: relative;
+  top: 35px;
+  left: -29px;
+  z-index: auto;
+  font-size: 15px;
+}
+submit {
+  position: absolute;
+  left: 510px;
+  background-color: rgb(15, 6, 23);
+  border: none;
+}
+
+.buy-plan-btn {
+  border: 1px solid rgb(130, 48, 198);
+  background-color: rgb(130, 48, 198);
+  border-radius: 4px;
+  max-width: 8rem;
+  position: absolute;
+  top: 30px;
+  left: 920px;
+  text-align: center;
+  font-weight: 700;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.buy-plan-btn > i {
+  background: transparent;
+  padding: 10px 6px;
+}
+.buy-plan-btn:hover {
+  transition: all 0.1s linear;
+  background-color: rgb(130, 48, 198, 0.5);
+}
+
+.btn_one {
+  position: absolute;
+  left: 1130px;
+  top: 30px;
+  background: transparent;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  cursor: pointer;
+}
+#check {
+  position: absolute;
+  left: 1135px;
+  top: 20px;
+  display: none;
+}
+.logo-two {
+  position: absolute;
+  left: 530px;
+  top: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sidebar_menu .btn_two i {
+  position: absolute;
+  font-size: 25px;
+  line-height: 60px;
+  left: 10px;
+  top: 20px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  cursor: pointer;
+}
+.sidebar_menu {
+  width: 1180px;
+  height: 100vh;
+  position: fixed;
+  background-color: rgb(15, 6, 23);
+  box-shadow: 0 0px 4px rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 1180px;
+  transition: all 1s normal;
+  z-index: 1;
+}
+.sidebar_menu .logo-two a {
+  position: absolute;
+  left: 0px;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar_menu .menu {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+}
+.sidebar_menu .menu li {
+  list-style: none;
+  margin-top: 6px;
+  padding: 14px 20px;
+}
+
+.sidebar_menu .menu ul {
+  margin-top: 15%;
+}
+.sidebar_menu .menu i,
+a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.sidebar_menu .menu i {
+  padding-right: 5px;
+}
+
+#check:checked ~ .sidebar_menu {
+  left: 0;
+}
+#check:checked ~ .btn_one i {
+  opacity: 0;
+}
+#check:checked ~ .sidebar_menu .btn_two i {
+  opacity: 1;
+}
+
+.login-signup {
+  position: absolute;
+  top: 15%;
+  z-index: 1;
+  background-color: rgb(29, 21, 37);
+  max-width: 100%;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  gap: 60px;
+}
+.login {
+  padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-right: 30px;
+  font-size: 16px;
+}
+.login:hover {
+  background-color: rgb(0, 0, 0, 0.3);
+}
+.signup {
+  padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  border: 1px solid rgb(130, 48, 198);
+  background-color: rgb(130, 48, 198);
+  font-size: 16px;
+}
+.signup:hover {
+  background-color: rgb(130, 48, 198, 0.3);
+  color: rgb(255, 255, 255);
+}
+.navbar {
+  /* display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 120px;
+  left: 25px; */
+  position: absolute;
+  height: 100vh;
+  width: 70vw;
+  min-width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.navbar ul li a {
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 50px;
+  display: block;
+  padding-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.navbar ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+  height: 3px;
+  width: 0;
+  left: 0;
+  top: 22px;
+}
+.navbar ul li a:hover:after {
+  width: 100%;
+  transition: all 0.5s linear;
+}
+
+.side-nav-bar {
+  position: absolute;
+  top: 35%;
+  left :20px;
+}
+.side-nav-bar ul li{
+  list-style: none;
+}
+.side-nav-bar ul li a{
+  font-size: 14px;
+  font-weight: bold;
+}
+#home{
+  border: 1px solid rgba(76, 60, 92, 0.41);
+  padding: 10px;
+  border-radius: 5px;
+}
+.dropdown{
+  margin-top: 10px;
+  width: 1152px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border:1px solid rgba(76, 60, 92, 0.41);
+}
