@@ -5,7 +5,10 @@
   background-color: rgb(15, 6, 23);
   color: white;
 }
-
+.container{
+  min-height: 100%;
+  height: 100%;
+}
 #A-color {
   color: #ffd700;
   font-family: "Bodoni Moda SC", serif;
@@ -24,6 +27,7 @@
   left: 30px;
   font-size: 35px;
   font-weight: 700;
+  text-decoration: none;
 }
 .search-container {
   position: relative;
@@ -49,7 +53,7 @@
 }
 .search-container i {
   position: relative;
-  top: 35px;
+  top: 40px;
   left: -29px;
   z-index: auto;
   font-size: 15px;
@@ -112,7 +116,7 @@ submit {
   position: absolute;
   font-size: 25px;
   line-height: 60px;
-  left: 10px;
+  right: 20px;
   top: 20px;
   color: rgb(255, 255, 255);
   background-color: transparent;
@@ -120,25 +124,28 @@ submit {
 }
 .sidebar_menu {
   width: 1180px;
-  height: 100vh;
+  min-height: 100%;
+  height: 300vh;
   position: fixed;
   background-color: rgb(15, 6, 23);
   box-shadow: 0 0px 4px rgba(255, 255, 255, 0.5);
   position: absolute;
-  left: 1180px;
-  transition: all 1s normal;
+  left: -1180px;
+  width: 100%;
+  transition: all 1s linear;
   z-index: 1;
 }
 .sidebar_menu .logo-two a {
   position: absolute;
   left: 0px;
+  text-align: center;
   font-size: 35px;
   font-weight: bold;
   text-decoration: none;
   color: white;
 }
 
-.sidebar_menu .menu {
+/* .sidebar_menu .menu {
   position: absolute;
   width: 100%;
   top: 80px;
@@ -160,7 +167,7 @@ a {
 }
 .sidebar_menu .menu i {
   padding-right: 5px;
-}
+} */
 
 #check:checked ~ .sidebar_menu {
   left: 0;
@@ -174,14 +181,13 @@ a {
 
 .login-signup {
   position: absolute;
-  top: 15%;
+  top: 7%;
   z-index: 1;
   background-color: rgb(29, 21, 37);
   max-width: 100%;
-  width: 100%;
+  width: 1140px;
   padding: 15px 20px;
   text-align: center;
-  gap: 60px;
 }
 .login {
   padding: 10px 30px;
@@ -189,6 +195,7 @@ a {
   border-radius: 5px;
   background-color: transparent;
   margin-right: 30px;
+  margin-left: 80px;
   font-size: 16px;
 }
 .login:hover {
@@ -201,6 +208,7 @@ a {
   border: 1px solid rgb(130, 48, 198);
   background-color: rgb(130, 48, 198);
   font-size: 16px;
+  margin-left: 0px;
 }
 .signup:hover {
   background-color: rgb(130, 48, 198, 0.3);
@@ -252,7 +260,7 @@ a {
 
 .side-nav-bar {
   position: absolute;
-  top: 35%;
+  top: 13%;
   left :20px;
 }
 .side-nav-bar ul li{
@@ -267,11 +275,158 @@ a {
   padding: 10px;
   border-radius: 5px;
 }
-.dropdown{
-  margin-top: 10px;
-  width: 1152px;
-  padding: 10px;
-  font-size: 14px;
-  border-radius: 5px;
-  border:1px solid rgba(76, 60, 92, 0.41);
+#home a{
+  text-decoration: none;
+  background-color: transparent;
 }
+#home:hover{
+  background-color: rgba(76, 60, 92, 0.41);
+}
+.dropdown-1{
+  margin-top: 10px;
+  width: 1130px;
+  padding: 5px;
+  font-size: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border:1px solid rgba(76, 60, 92, 0.41);
+  position: relative;
+  display: inline-block;
+}
+.icon-place-1{
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  color: #ccc;
+}
+#downicon-1{
+  margin-top: 12px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.dropdown-button-1{
+  background-color:transparent;
+  width: 1130px;
+  border: none;
+  padding: 10px;
+  padding-left: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 1;
+  color: rgba(255, 255, 255,0.4);
+}
+
+#Explore{
+  display: flex;
+}
+.dropdown-content-1{
+  display: none;
+  position: absolute;
+  left: -1px;
+  background-color: transparent;
+  box-shadow:  0px 8px 16px 0.2;
+  width: 100%;
+  z-index: 1;
+  margin-top: 2px;
+  border: 1px solid rgba(76, 60, 92, 0.41);
+  border-top: none;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.dropdown-content-1 a{
+  padding-left: 8px;
+  letter-spacing: 0.2px;
+  padding: 10px;
+}
+
+#anchor-font{
+  font-size: 14px;
+  text-decoration: none;
+}
+#anchor-font:hover{
+  background-color: #938b8b2a;
+}
+
+.dropdown-2{
+  margin-top: 10px;
+  width: 1130px;
+  padding: 5px;
+  font-size: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border:1px solid rgba(76, 60, 92, 0.41);
+  position: relative;
+  display: inline-block;
+}
+#Plan{
+  display: flex;
+}
+.icon-place-2{
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  color: #ccc;
+}
+.dropdown-button-2{
+  background-color:transparent;
+  width: 1130px;
+  border: none;
+  padding: 10px;
+  padding-left: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 1;
+  color: rgba(255, 255, 255,0.4);
+}
+.dropdown-content-2{
+  display: none;
+  position: absolute;
+  left: -1px;
+  background-color: transparent;
+  box-shadow:  0px 8px 16px 0.2;
+  width: 100%;
+  z-index: 1;
+  margin-top: 2px;
+  border: 1px solid rgba(76, 60, 92, 0.41);
+  border-top: none;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.dropdown-content-2 a{
+  padding-left: 8px;
+  letter-spacing: 0.2px;
+  padding: 10px;
+}
+#downicon-2{
+  margin-top: 12px;
+  cursor: pointer;
+  background-color: transparent;
+}
+#Setting{
+  display: flex;
+  margin-top: 5px;
+}
+#Info{
+  display: flex;
+  margin-top: 5px;
+}
+.sidebar-footer{
+  margin-top: 15px;
+  text-align: center;
+}
+.sidebar-footer p{
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
